@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More</title>
+  <link rel="stylesheet" href="creativity_page.css">
+  <script src="script.js" defer></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>      
+
+    <img src="logo.jpg" alt="logo" id="logo1">
+
+    <nav>
+      <ul>
+        <li><a href="home_page.html">Home</a></li>
+        <li><a href="form_page.html">Register</a></li>
+        <li><a href="creativity_page.html" class="active">More</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="BMI_description">
+        <h2>Calculate Your BMI!</h2>
+        <p>The body mass index (BMI) calculator calculates body madd index from your weight and height.</p>
+    </div>
+
+    <div class="container">
+        <form class="bmi-form">
+          <h2>BMI Calculator</h2>
+          <div class="form-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+          </div>
+          <div class="form-group">
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required>
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="calculateBMI()">Calculate</button>
+          </div>
+          <div class="result" id="result"></div>
+        </form>
+      </div>
+
+      <h1 style="text-align: center; margin: 20px;">Gallery</h1>
+
+      <section id="gallery">
+        <div class="img-grid">
+        <img src="gallery1.PNG" alt="gallery1">
+        <img src="gallery2.jpg" alt="gallery2">
+        <img src="gallery3.jpg" alt="gallery3">
+        <img src="gallery4.jpg" alt="gallery4">
+        <img src="gallery5.jpg" alt="gallery5">
+        <img src="gallery6.jpg" alt="gallery6">
+      </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: ContactUs@TheDumbbells.com</p>
+        <p>Phone: 123-456-7890</p>
+      </section>
+  </main>
+
+</body>  
+
+<footer>
+    <p>&copy; 2023 The Dumbbells. All rights reserved.</p>
+</footer>
+</html>
